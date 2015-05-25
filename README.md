@@ -1,1 +1,1 @@
-# twig_relative_directory
+# twig_currency_symbol

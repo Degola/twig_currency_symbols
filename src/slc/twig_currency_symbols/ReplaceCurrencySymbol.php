@@ -24,7 +24,7 @@ class ReplaceCurrencySymbol extends Twig_Extension
 	public function getFilters()
 	{
 		return array(
-			new Twig_SimpleFilter('replace_currency_symbol', array($this, 'twig_replace_currency_symbol'), array('needs_environment' => true)),
+			new Twig_SimpleFilter('replace_with_currency_symbol', array($this, 'twig_replace_currency_symbol'), array('needs_environment' => true)),
 		);
 	}
 
